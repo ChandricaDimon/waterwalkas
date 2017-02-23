@@ -24,6 +24,24 @@
   z-index: 10;
 }
 
+@media (max-width: 320px) {
+  .introText {
+    position: relative;
+    top: 235px;
+  }
+
+  .mine {
+    font-size: 30px;
+  }
+
+  .mainLogo {
+    bottom: 60%;
+    right: 45%;
+
+  }
+
+}
+
 @media (max-width: 991px) {
   .content {
     position: relative;
