@@ -61,6 +61,39 @@
     height: 100%;
   }
 
+  .controls {
+    width: 100%;
+    height: 100%;
+  }
+
+  .speaker {
+    width: 100%;
+    height: 100%;
+  }
+
+  .apparel {
+    width: 100%;
+    height: 100%;
+  }
+
+  .servicesTitle {
+    text-align: center;
+  }
+
+  .servicesText {
+    text-align: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .introText {
+    position: relative;
+    top: 200px;
+  }
+
+  .mine {
+    font-size: 25px !important;
+  }
 }
 
 @media (max-width: 991px) {
