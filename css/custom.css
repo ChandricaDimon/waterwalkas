@@ -25,13 +25,14 @@
 }
 
 @media (max-width: 320px) {
+
   .introText {
     position: relative;
     top: 235px;
   }
 
   .mine {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .mainLogo {
@@ -85,7 +86,66 @@
   }
 }
 
-@media (max-width: 376px) {
+@media (min-width: 321px) and (max-width: 376px) {
+  .introText {
+  }
+
+  .mine {
+    font-size: 35px;
+  }
+
+  .mainLogo {
+    bottom: 60%;
+    right: 45%;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .heading:after {
+    width: 100%;
+  }
+
+  .aboutPara1 {
+    text-align: center;
+  }
+
+  .w {
+    width: 100%;
+    height: 100%;
+  }
+
+  .audio {
+    width: 100%;
+    height: 100%;
+  }
+
+  .controls {
+    width: 100%;
+    height: 100%;
+  }
+
+  .speaker {
+    width: 100%;
+    height: 100%;
+  }
+
+  .apparel {
+    width: 100%;
+    height: 100%;
+  }
+
+  .servicesTitle {
+    text-align: center;
+  }
+
+  .servicesText {
+    text-align: center;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 426px) {
   .introText {
     position: relative;
     top: 100px;
