@@ -9,6 +9,7 @@
   opacity: 0.2;
   position: relative;
   bottom: 50%;
+  width: 100%;
 }
 
 .content {
